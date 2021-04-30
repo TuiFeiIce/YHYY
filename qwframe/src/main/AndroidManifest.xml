@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yhyy.qwframe">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--访问WIFI权限-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--访问网络权限-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--改变WIFI状态权限-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!--改变网络状态权限-->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!--允许应用打开网络套接口-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--允许应用读写用户的外部存储器-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

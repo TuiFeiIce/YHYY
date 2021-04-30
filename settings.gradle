@@ -1,0 +1,3 @@
+include ':qwframe'
+include ':app'
+rootProject.name = "YHYY"
