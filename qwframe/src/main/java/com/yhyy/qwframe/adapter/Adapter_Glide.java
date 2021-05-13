@@ -199,7 +199,7 @@ public class Adapter_Glide extends RecyclerView.Adapter {
             //itemView 的点击事件
             if (mOnItemClickListener != null) {
                 viewHolder.itemView.setOnClickListener(v -> {
-                    int adapterPosition = viewHolder.getAdapterPosition();
+                    int adapterPosition = viewHolder.getBindingAdapterPosition();
                     mOnItemClickListener.onItemClick(v, adapterPosition);
                 });
             }

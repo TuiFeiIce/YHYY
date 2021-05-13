@@ -38,6 +38,7 @@
         <item name="android:windowEnterAnimation">@anim/actionsheet_in</item>
         <item name="android:windowExitAnimation">@anim/actionsheet_out</item>
     </style>
+
     <!--样式，注意每一项都不能少-->
     <style name="picture.style" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
         <!-- Customize your theme here. -->
