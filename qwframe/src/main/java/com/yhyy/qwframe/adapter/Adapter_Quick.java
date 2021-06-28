@@ -11,12 +11,12 @@ import com.yhyy.qwframe.inter.OnLongClickListener;
 
 import java.util.List;
 
-public abstract class Adapter_Null<T> extends RecyclerView.Adapter<VH> {
+public abstract class Adapter_Quick<T> extends RecyclerView.Adapter<VH> {
     public OnItemClickListener onItemClickListener;
     public OnLongClickListener onLongClickListener;
     private List<T> datas;
 
-    public Adapter_Null(List<T> datas) {
+    public Adapter_Quick(List<T> datas) {
         this.datas = datas;
     }
 
